@@ -38,7 +38,6 @@ function HomeOne(props) {
 
         <Team data={dataTeam} />
 
-        <Blog data={dataBlog} />
 
 
         <FAQ data={dataFaq} />

@@ -7,8 +7,13 @@ import Footer from './components/footer';
 import '../src/assets/font/font-awesome.css'
 import routes from './pages';
 import Page404 from './pages/404';
-
-import { MoralisProvider } from 'react-moralis';
+import { WagmiConfig, createClient } from 'wagmi'
+import { getDefaultProvider } from 'ethers'
+ 
+const client = createClient({
+  autoConnect: true,
+  provider: getDefaultProvider(),
+}) 
 function App() {
 
     useEffect(() => {
@@ -18,10 +23,8 @@ function App() {
       }, []);
 
     return (
-        <><MoralisProvider
-        appId="Ule3vKGffPvCeljv5O1GMC28a3A7OGebTRQZmDhG"
-        serverUrl="https://e7e8lhnsdker.usemoralis.com:2053/server"
-      >
+        <>
+    <WagmiConfig client={client}>
 
             <Header />
 
@@ -36,7 +39,9 @@ function App() {
                 <Route path='*' element={<Page404 />} />
             </Routes>
 
-            <Footer /></MoralisProvider>
+            <Footer />    
+            </WagmiConfig>
+
         </>
     );
 }

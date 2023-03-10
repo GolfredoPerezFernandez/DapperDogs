@@ -21,7 +21,7 @@ function NftItemDetails(props) {
                         <div className="col-xl-6 col-lg-6 col-md-12">
                             <div className="item-details" data-aos="fade-left" data-aos-duration="800">
                                 <h5>Samuel Olukoju</h5>
-                                <p className="sub">Cybox #01</p>
+                                <p className="sub">Dapper #01</p>
                                 <div className="action">
                                     <div className="left-box">
                                         <Link to="#" className="view">

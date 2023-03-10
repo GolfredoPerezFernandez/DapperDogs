@@ -14,7 +14,7 @@ function Work(props) {
     const [dataBlock] = useState({
         subtitle: 'How we work',
         title: 'BECOME OUR MEMBER',
-        desc: 'Maecenas sit pretium, cras in. In quisque sem id eget. In vel gravida ut adipiscing integer felis.'
+        desc: ` Don't miss out on the chance to own a piece of this groundbreaking collection.`
     })
     return (
         <section className="tf-section how-we-work">

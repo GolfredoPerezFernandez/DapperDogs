@@ -20,7 +20,7 @@ function BlogDetails(props) {
                                 <div className="image">
                                     <div className="tag st2">nftartwork</div>
                                 </div>
-                                <h4 className="title"><Link to="#">Choosing Your NFT Avatar And How You can Set It Up On Cybox</Link></h4>
+                                <h4 className="title"><Link to="#">Choosing Your NFT Avatar And How You can Set It Up On Dapper</Link></h4>
                                 <ul className="meta-post">
                                     <li><span>by</span><Link to="#">Admin</Link></li>
                                     <li><Link to="#"> 20 Jun 2022</Link></li>

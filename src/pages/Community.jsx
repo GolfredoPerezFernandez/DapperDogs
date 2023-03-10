@@ -22,7 +22,7 @@ function Community(props) {
                         <div className="col-md-12">
                             <div className="content-about mb-51 mobie-40">
                                 <div className="tf-title pd22" data-aos="fade-up" data-aos-duration="800">
-                                    <h3 className="title">CYbox nft collectionS  for everyone</h3>
+                                    <h3 className="title">Dapper nft collectionS  for everyone</h3>
                                 </div>
                             </div>
                         </div>

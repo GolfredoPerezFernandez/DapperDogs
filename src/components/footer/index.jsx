@@ -81,8 +81,12 @@ function Footer(props) {
                             </Link>
                         </li>
                     </ul>
-                    <h5 className="heading">don’t miss out, join now for early access</h5>
-                    <p>Maecenas sit pretium, cras in. In quisque sem id eget. In vel gravida ut </p>
+                    <h5 className="heading">
+ Don't miss out on the chance to own a piece of this groundbreaking collection.
+           </h5>
+                    <p>
+            Join the Dappers revolution and discover the limitless possibilities of NFTs. Start building your collection today and be a part of something truly special.
+    </p>
                   
                 </div>
             </div>
@@ -90,7 +94,7 @@ function Footer(props) {
                 <div className="container">
                     <div className="wrap-fx">
                         <div className="Copyright">
-                            <p>CYBOX 2022- ALL rights reserved</p>
+                            <p>Dapper 2022- ALL rights reserved</p>
                         </div>
                         <ul className="list">
                             <li>
